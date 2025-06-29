@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+header{
+    height: 70px;
+    background-color: black;
+}
+.image{
+    height: 70px;
+    width: 80px;
+}
+
+.list{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.name{
+    font-size: 15px;
+    display: flex;
+    font-weight: 700;
+    
+    
+}
+.workout{
+    height: 600px;
+    background-image: url(../Assets/workout.jpg);
+    background-size: cover;
+}
+.para{
+    text-align: center;
+    margin: 50px;
+}
+.para h1{
+    color: red;
+    font-size: 30px;
+}
+.para .sentence{
+    margin: 10px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+.workout-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+.exercise{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.exercise-images1{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;  
+    background-image: url(../Assets/kick\ boxing.jpg); 
+    background-size: cover;
+}
+.exercise-images2{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    background-image: url(../Assets/Aerobics.jpg);
+    background-size: cover;
+}
+.exercise-images3{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;   
+    background-image: url(../Assets/Strength.jpg);
+    background-size: cover;
+}
+.fitness{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.fitness-video1{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black; 
+    background-image: url(../Assets/workout-1.jpg); 
+    background-size: cover;
+
+}
+.fitness-video2{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    background-image: url(../Assets/workout-2.jpg);  
+    background-size: cover;
+
+}
+.fitness-video3{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;  
+    background-image: url(../Assets/workout-3.jpg);
+    background-size: cover;
+
+}
+.meditation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.meditation1{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black; 
+    background-image: url(../Assets/free-weight.jpg);
+    background-size: cover;
+}
+.meditation2{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black; 
+    background-image: url(../Assets/yoga.jpg);
+    background-size: cover;
+}
+.meditation3{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black; 
+    background-image: url(../Assets/zumba.jpg);
+    background-size: cover;
+}
+.meditationlist{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+.our-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.our-story h1{
+    color: red;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.our-story p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+#Award-image{
+    height: 300px;
+    width: 100%;
+}
+
+.heading{
+    color: red;
+    text-align: center;
+    margin-top: 20px ;
+    
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.Vh1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(../Assets/VH1.avif);
+    background-size: cover;
+}
+.ET{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(../Assets/ET.webp);
+    background-size: cover;
+}
+.CNBC{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(../Assets/cnbc.png);
+    background-size: cover;
+}
+.htcity{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(../Assets/htcity.jpg);
+    background-size: cover;
+}
+.location{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    
+}
+.heading1 h1{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+
+   
+}
+.location li{
+    color: white;
+    display: flex;
+    padding: 5px;
+    
+
+}
+.icons{
+    display:inline;
+    align-items: center;
+  text-align: center;
+
+}
+.icons i{
+    padding: 20px;
+    font-size: 40px;
+    color: red;
+   
+    
+    
+}
